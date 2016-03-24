@@ -120,7 +120,8 @@
 		"</li>"
 		);
 	}
-
+	// entry kutusuna odaklanma hatasını düzelt
+	$(".edittextbox").removeAttr("autofocus");
 
 
 
